@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Idea4You",
+    "slug": "idea4you",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gabrielemazzini.idea4you"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gabrielemazzini.idea4you"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c70a905d-7a76-4526-9bab-ddeac76f78e7"
+      }
+    },
+    "owner": "gabriele.mazzini",
+    "updates": {
+      "url": "https://u.expo.dev/c70a905d-7a76-4526-9bab-ddeac76f78e7"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
